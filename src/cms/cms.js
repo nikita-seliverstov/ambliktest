@@ -5,7 +5,7 @@ import BlogPostPreview from './preview-templates/BlogPostPreview'
 import ProductPagePreview from './preview-templates/ProductPagePreview'
 import AmblikPagePreview from './preview-templates/ProductPagePreview'
 
-CMS.registerPreviewTemplate('Landing', AmblikPagePreview)
+CMS.registerPreviewTemplate('landing page', AmblikPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
 CMS.registerPreviewTemplate('products', ProductPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
